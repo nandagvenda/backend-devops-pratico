@@ -1,0 +1,7 @@
+POST http://localhost:3002/api/auth/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "nanda.v@br.com",
+    "senha": "teste1234"
+}
